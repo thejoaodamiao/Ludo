@@ -1,0 +1,363 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1740046191108598282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1740046191108598283}
+  - component: {fileID: 7564981198875693278}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1740046191108598283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740046191108598282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 105.34196, y: 54.51153, z: -8.509736}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7564981198875693278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740046191108598282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167ef42c27d39924e918013aa5ac65e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frameRed: {fileID: 0}
+  frameBlue: {fileID: 0}
+  frameGreen: {fileID: 0}
+  frameYellow: {fileID: 0}
+  redPlayer1Border: {fileID: 0}
+  redPlayer2Border: {fileID: 0}
+  redPlayer3Border: {fileID: 0}
+  redPlayer4Border: {fileID: 0}
+  YellowPlayer1Border: {fileID: 0}
+  YellowPlayer2Border: {fileID: 0}
+  YellowPlayer3Border: {fileID: 0}
+  YellowPlayer4Border: {fileID: 0}
+  GreenPlayer1Border: {fileID: 0}
+  GreenPlayer2Border: {fileID: 0}
+  GreenPlayer3Border: {fileID: 0}
+  GreenPlayer4Border: {fileID: 0}
+  BluePlayer1Border: {fileID: 0}
+  BluePlayer2Border: {fileID: 0}
+  BluePlayer3Border: {fileID: 0}
+  BluePlayer4Border: {fileID: 0}
+  redPlayer1Pos: {x: 0, y: 0, z: 0}
+  redPlayer2Pos: {x: 0, y: 0, z: 0}
+  redPlayer3Pos: {x: 0, y: 0, z: 0}
+  redPlayer4pos: {x: 0, y: 0, z: 0}
+  YellowPlayer1Pos: {x: 0, y: 0, z: 0}
+  YellowPlayer2Pos: {x: 0, y: 0, z: 0}
+  YellowPlayer3Pos: {x: 0, y: 0, z: 0}
+  YellowPlayer4pos: {x: 0, y: 0, z: 0}
+  GreenPlayer1Pos: {x: 0, y: 0, z: 0}
+  GreenPlayer2Pos: {x: 0, y: 0, z: 0}
+  GreenPlayer3Pos: {x: 0, y: 0, z: 0}
+  GreenPlayer4pos: {x: 0, y: 0, z: 0}
+  BluePlayer1Pos: {x: 0, y: 0, z: 0}
+  BluePlayer2Pos: {x: 0, y: 0, z: 0}
+  BluePlayer3Pos: {x: 0, y: 0, z: 0}
+  BluePlayer4pos: {x: 0, y: 0, z: 0}
+  diceRoll: {fileID: 0}
+  redDiceRoll: {fileID: 0}
+  blueDiceRoll: {fileID: 0}
+  greenDiceRoll: {fileID: 0}
+  yellowDiceRoll: {fileID: 0}
+  diceRollButton: {fileID: 0}
+  redPlayer1Button: {fileID: 0}
+  redPlayer2Button: {fileID: 0}
+  redPlayer3Button: {fileID: 0}
+  redPlayer4Button: {fileID: 0}
+  bluePlayer1Button: {fileID: 0}
+  bluePlayer2Button: {fileID: 0}
+  bluePlayer3Button: {fileID: 0}
+  bluePlayer4Button: {fileID: 0}
+  greenPlayer1Button: {fileID: 0}
+  greenPlayer2Button: {fileID: 0}
+  greenPlayer3Button: {fileID: 0}
+  greenPlayer4Button: {fileID: 0}
+  yellowPlayer1Button: {fileID: 0}
+  yellowPlayer2Button: {fileID: 0}
+  yellowPlayer3Button: {fileID: 0}
+  yellowPlayer4Button: {fileID: 0}
+  redScreen: {fileID: 0}
+  blueScreen: {fileID: 0}
+  greenScreen: {fileID: 0}
+  yellowScreen: {fileID: 0}
+  redPlayer1: {fileID: 0}
+  redPlayer2: {fileID: 0}
+  redPlayer3: {fileID: 0}
+  redPlayer4: {fileID: 0}
+  bluePlayer1: {fileID: 0}
+  bluePlayer2: {fileID: 0}
+  bluePlayer3: {fileID: 0}
+  bluePlayer4: {fileID: 0}
+  greenPlayer1: {fileID: 0}
+  greenPlayer2: {fileID: 0}
+  greenPlayer3: {fileID: 0}
+  greenPlayer4: {fileID: 0}
+  yellowPlayer1: {fileID: 0}
+  yellowPlayer2: {fileID: 0}
+  yellowPlayer3: {fileID: 0}
+  yellowPlayer4: {fileID: 0}
+  diceRollAnimation: {fileID: 0}
+  dice2RollAnimation: {fileID: 0}
+  dice3RollAnimation: {fileID: 0}
+  dice4RollAnimation: {fileID: 0}
+  dice5RollAnimation: {fileID: 0}
+  dice6RollAnimation: {fileID: 0}
+  redMovementBlock:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  yellowMovementBlock:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  blueMovementBlock:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  greenMovementBlock:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  confirmScreen: {fileID: 0}
+  gameCompleteScreen: {fileID: 0}
